@@ -1,0 +1,59 @@
+/* the tree node's style */
+.tree-container {
+  padding: 12px;
+}
+.tree-view {
+  overflow-y: hidden;
+  color: #828282;
+  font-size: 12px;
+  padding: 1px;
+}
+
+.tree-view .react-context-menu-wrapper {
+  display: inline-block
+}
+
+.tree-view .fa, .tree-view_item .tree-icon {
+  font-size: 16px;
+  width: 16px;
+  color: #dddddd;
+}
+
+.tree-view_item {
+  line-height: 16px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.tree-view_item:hover {
+  color: #F92672;
+}
+
+/* style for the children nodes container */
+.tree-view_children {
+  margin-left: 16px;
+}
+
+.tree-view_children-collapsed {
+  height: 0px;
+}
+
+.tree-view_arrow {
+  cursor: pointer;
+  margin-right: 6px;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* rotate the triangle to close it */
+.tree-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tree-view_arrow-collapsed {
+
+}

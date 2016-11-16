@@ -1,0 +1,12 @@
+.rn-toolbar .rn-toolbar-item {
+	color: #F92672;
+}
+.rn-toolbar .rn-toolbar-item:hover {
+	color: #D6418E	;
+}
+.rn-toolbar, .rn-toolbar-overflow-btn {
+	background: #000;
+}
+.rn-toolbar .rn-toolbar-item:not(:last-child) {
+	border-right: 1px solid rgba(255,255,255,0.1);
+}
